@@ -11,7 +11,7 @@ export const Navbar = () => {
     <div className={classes.navbar}>
       <div className={classes["nav-logo"]}>
         <img src={logo} alt="logo" />
-        <p>HARITON BUTIQUE</p>
+        <p>HARITON BOUTIQUE</p>
       </div>
       <ul className={classes["nav-menu"]}>
         <li>
