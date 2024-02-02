@@ -7,7 +7,7 @@ function Popular() {
   return (
     <div className={classes.popular}>
       <h1>POPULAR IN WOMEN</h1>
-      <hr />
+      {/* <hr /> */}
       <div className={classes["popular-item"]}>
         {data_product.map((item, i) => {
           return (
