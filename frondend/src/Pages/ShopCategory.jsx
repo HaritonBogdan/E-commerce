@@ -7,12 +7,12 @@ import Item from "../Components/Item/Item";
 const ShopCategory = (props) => {
   const { all_product } = useContext(ShopContext);
   return (
-    <div className={classes["shop-category"]}>
-      <img
+    <div className={classes["shopcategory"]}>
+      {/* <img
         className={classes["shopcategory-banner"]}
         src={props.banner}
         alt="banner"
-      />
+      /> */}
       <div className={classes["shopcategory-indexSort"]}>
         <p>
           <span>Showing 1-12</span> out of 36 products

@@ -11,7 +11,15 @@ export const Navbar = () => {
     <div className={classes.navbar}>
       <div className={classes["nav-logo"]}>
         <img src={logo} alt="logo" />
-        <p>HARITON BOUTIQUE</p>
+        <Link
+          className={menu === "boutique" ? classes["active-li"] : ""}
+          onClick={() => {
+            setMenu("boutique");
+          }}
+          to="/"
+        >
+          HARITON BOUTIQUE
+        </Link>
       </div>
       <ul className={classes["nav-menu"]}>
         <li>

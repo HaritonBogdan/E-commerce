@@ -30,25 +30,33 @@ const ProductDisplay = (props) => {
           <img src={star_icon} alt="" />
           <img src={star_icon} alt="" />
           <img src={star_dull_icon} alt="" />
-          <p>122</p>
+          <p>(122)</p>
         </div>
         <div className={classes["productdisplay-right-prices"]}>
           <div className={classes["productdisplay-right-price-old"]}>
-            {product.old_price}lei
+            {product.old_price},90 lei
           </div>
           <div className={classes["productdisplay-right-price-new"]}>
-            {product.new_price}lei
+            {product.new_price},90 lei
           </div>
         </div>
         <div className={classes["productdisplay-right-description"]}>
-          Experimentează căldura și confortul suprem cu puloverul nostru Cozy
-          Comfort! Acest pulover de înaltă calitate este creat pentru a-ți oferi
-          o senzație plăcută și relaxantă, perfectă pentru zilele friguroase și
-          serile liniștite.
+          <span>Description: </span>Experimentează căldura și confortul suprem
+          cu puloverul nostru Cozy Comfort! Acest pulover de înaltă calitate
+          este creat pentru a-ți oferi o senzație plăcută și relaxantă, perfectă
+          pentru zilele friguroase și serile liniștite.
         </div>
+        <p className={classes["productdisplay-right-category"]}>
+          <span>Category: </span>
+          Women , T-shirt, Crop Top
+        </p>
+        <p className={classes["productdisplay-right-category"]}>
+          <span>Tag: </span>
+          Modern, Latest
+        </p>
         <div className={classes["productdisplay-right-size"]}>
           <h1>Select Size</h1>
-          <div className={classes["productdisplay-right-size"]}>
+          <div className={classes["productdisplay-right-sizes"]}>
             <div>S</div>
             <div>M</div>
             <div>L</div>
@@ -57,14 +65,6 @@ const ProductDisplay = (props) => {
           </div>
         </div>
         <button>ADD TO CART</button>
-        <p className={classes["productdisplay-rigt-category"]}>
-          <span>Category :</span>
-          Women , T-shirt, Crop Top
-        </p>
-        <p className={classes["productdisplay-rigt-category"]}>
-          <span>Tag :</span>
-          Modern, Latest
-        </p>
       </div>
     </div>
   );
