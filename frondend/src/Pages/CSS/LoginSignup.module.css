@@ -38,9 +38,9 @@
   border-radius: 5px;
 }
 
-.loginsignup-fields input:hover {
+/* .loginsignup-fields input:hover {
   box-shadow: #001d2b 0px 1px 4px, #3e596e 0px 0px 0px 1px;
-}
+} */
 
 .loginsignup-fields input:focus {
   box-shadow: #001d2b 0px 1px 4px, #3e596e 0px 0px 0px 2px;
