@@ -32,6 +32,11 @@
   width: 15px;
   margin: 0px 40px;
   cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+.cartitems-remove-icon:active {
+  transform: scale(0.7);
 }
 
 .cartitems-quantity {
@@ -73,10 +78,15 @@
   font-weight: 600;
   border-radius: 80px;
   cursor: pointer;
+  transition: transform 0.1s ease-in-out;
 }
 
 .cartitems-total button:hover {
   background: #3e596e;
+}
+
+.cartitems-total button:active {
+  transform: scale(0.95);
 }
 
 .cartitems-promocode {
@@ -121,11 +131,14 @@
   background: #001d2b;
   color: white;
   cursor: pointer;
-  /* border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px; */
   border-radius: 80px;
+  transition: transform 0.1s ease-in-out;
 }
 
 .cartitems-promobox button:hover {
   background: #3e596e;
+}
+
+.cartitems-promobox button:active {
+  transform: scale(0.95);
 }

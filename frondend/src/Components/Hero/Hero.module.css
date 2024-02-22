@@ -40,10 +40,15 @@
   font-size: 22px;
   font-weight: 500;
   cursor: pointer;
+  transition: transform 0.1s ease-in-out;
 }
 
 .hero-latest-btn:hover {
   background: #3e596e;
+}
+
+.hero-latest-btn:active {
+  transform: scale(0.95);
 }
 
 .hero-right {
